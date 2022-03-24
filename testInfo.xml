@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<bacteria species="Salmonella enterica">
+    <isolates serotype="Reading">
+        <isolate BioSample="SAMN12659053" libraryName="APHI_17-10375">
+            <experiment type="wgs">
+                <platform>Illumina MiSeq</platform>
+                <design>MiSeq Nextera XT shotgun sequencing of cultured isolate</design>
+                <sequencing paired_end="true">500cycle</sequencing>
+            </experiment>
+            <analysis read_trim="none">
+                <assembly program="SPAdes">
+                    <contigCount>148</contigCount>
+                    <N50>73979</N50>
+                    <longestContig>168270</longestContig>
+                </assembly>
+            </analysis>
+        </isolate>
+        <isolate BioSample="SAMN12659054" libraryName="APHI_17-10777">
+            <experiment type="wgs">
+                <platform>Illumina MiSeq</platform>
+                <design>MiSeq Nextera XT shotgun sequencing of cultured isolate</design>
+                <sequencing paired_end="true">500cycle</sequencing>
+            </experiment>
+            <analysis read_trim="none">
+                <assembly program="SPAdes">
+                    <contigCount>266</contigCount>
+                    <N50>28822</N50>
+                    <longestContig>97074</longestContig>
+                </assembly>
+            </analysis>
+        </isolate>
+        <isolate BioSample="SAMN12659055" libraryName="APHI_17-12383">
+            <experiment type="wgs">
+                <platform>Illumina MiSeq</platform>
+                <design>MiSeq Nextera XT shotgun sequencing of cultured isolate</design>
+                <sequencing paired_end="true">500cycle</sequencing>
+            </experiment>
+            <analysis read_trim="none">
+                <assembly program="SPAdes">
+                    <contigCount>237</contigCount>
+                    <N50>33796</N50>
+                    <longestContig>96490</longestContig>
+                </assembly>
+            </analysis>
+        </isolate>
+        <isolate BioSample="SAMN08541552" libraryName="CVM N17S1018">
+            <experiment type="wgs">
+                <platform>Illumina MiSeq</platform>
+                <design>MiSeq Nextera XT shotgun sequencing of cultured isolate</design>
+                <sequencing paired_end="true">600cycle</sequencing>
+            </experiment>
+            <analysis read_trim="none">
+                <assembly program="SPAdes">
+                    <contigCount>36</contigCount>
+                    <N50>455001</N50>
+                    <longestContig>758346</longestContig>
+                </assembly>
+            </analysis>
+        </isolate>
+    </isolates>
+    <publications>
+        <reference published="true">
+            <authors>Darlene D. Wagner, Heather A. Carleton, Eija Trees and Lee S. Katz</authors>
+            <title>Evaluating whole-genome sequencing quality metrics for enteric pathogen outbreaks</title>
+            <journal>PeerJ 9:e12446</journal>
+        </reference>
+    </publications>
+</bacteria>
